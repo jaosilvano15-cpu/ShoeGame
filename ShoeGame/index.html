@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoeGame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">ShoeGame</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#cart" class="cart-link">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <h1>Step Up Your Style</h1>
+        <p>The best collection of sneakers, only here at ShoeGame</p>
+        <a href="#products" class="btn">Shop Now</a>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Products</h2>
+        <div class="product-grid" id="product-list"></div>
+    </section>
+
+    <section id="cart" class="cart">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <div class="cart-total">
+            Total: ₱<span id="cart-total">0</span>
+        </div>
+        <button class="btn checkout-btn">Checkout</button>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About ShoeGame</h2>
+        <p>Your go-to store for the freshest sneaker releases and timeless classics.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Message us on Instagram @ShoeGame</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 ShoeGame. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
